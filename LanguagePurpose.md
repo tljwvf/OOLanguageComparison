@@ -1,2 +1,2 @@
-#Swft
+# Swift
 Swift was created as a general purpose and multi-paradigm language by Apple to replace Objective-C. It was created to work for Apple’s current operating systems such as iOS, macOS, and watchOS. It was designed to be safer than Objective-C, more dynamic, and to contain more extensible programming features. It was also created to address common problems such as null pointers and adds the concept of protocol extensibility. Swift was created based on several different programming languages such as Objective-C, Rust, Haskell, C#, and Ruby.
