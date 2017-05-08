@@ -24,7 +24,7 @@ C# uses Lambda expressions which are denoted by the lambda operator =>
 
     (x, y) => x == y
  
- There are multiple forms of lambdas in C#
+ There are multiple forms of lambdas in C#.
  1. Expression Lambdas = they have an expression on the right
  
          (input-parameters) => expression
@@ -32,8 +32,7 @@ C# uses Lambda expressions which are denoted by the lambda operator =>
  
         (input-parameters) => { statement; }
         
- 3. Async Lambdas = These are either Expression Lambdas or Statement Lambdas but also use keywords such as async and await
- 4. Lambdas that use Standard Query operators
+ 3. Async Lambdas = These are either Expression Lambdas or Statement Lambdas but also use keywords such as async an
  
  
  
