@@ -24,6 +24,7 @@
 1. [Comparisons](https://github.com/tljwvf/OOLanguageComparison/blob/master/Comparisons.md)
 1. [Null/nil References](https://github.com/tljwvf/OOLanguageComparison/blob/master/NullNillReferences.md)
 1. [Errors/Exceptions](https://github.com/tljwvf/OOLanguageComparison/blob/master/ErrorsExceptions.md)
+1. [Event Listeners/Handlers](https://github.com/tljwvf/OOLanguageComparison/blob/master/ListenersEvents.md)
 1. [Lambda Expressions/Closures](https://github.com/tljwvf/OOLanguageComparison/blob/master/LambdaExpressionsClosures.md)
 1. [Singleton](https://github.com/tljwvf/OOLanguageComparison/blob/master/Singleton.md)
 1. [Procedural/Functional Programming](https://github.com/tljwvf/OOLanguageComparison/blob/master/ProceduralFunctionalProgramming.md)
