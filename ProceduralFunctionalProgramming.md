@@ -11,3 +11,6 @@ Swift is also not a procedural language, but an object oriented lanaguage. So it
 
 ## C#
 
+C# support both functional programming and procedural programming.
+
+[Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
