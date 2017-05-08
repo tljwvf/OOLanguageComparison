@@ -11,3 +11,17 @@ This class allows the user to add an observer.
 Then the user can use to class to send notifications to observer.
 
     func postNotificationName(notificationName: String, object notificationSender: AnyObject?)
+
+
+## C#
+
+C# uses a delegate object as the EventHandler thanks to the .NET Framework guidelines. 
+
+    public delegate void ChangedEventHandler(object sender, EventArgs 
+
+C# uses event object as the Listener 
+   
+     public event ChangedEventHandler Changed;
+
+
+[Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
