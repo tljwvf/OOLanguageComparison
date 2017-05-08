@@ -7,7 +7,7 @@ This means that the user does not have to explicity state the resources that nee
 
 ## C#
 
-C# has automatic memory management. When an object is created/defined it has a destructor method, these methods cannot be called but instead when the object is no longer able to be used it terminates itself via a destructor invoke. After the object is destructed garbage collection takes over and frees memory associated with the object. 
+C# has automatic memory management. When an object is created/defined it has a destructor method, these methods cannot be called but instead when the object is no longer able to be used it terminates itself via a destructor invoke. After the object is destructed garbage collection takes over and frees memory associated with the object. C# doesn't use automatic reference counting like Objective-C or Switf.
 
 
 
