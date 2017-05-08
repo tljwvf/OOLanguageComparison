@@ -11,7 +11,7 @@ Creating a new instance is accomplished by calling the constructor.
 
     let hd = Resolution(width: 1920, height: 1080)
     
-The object is constructed using Init()
+The object is constructed using Init().
 
     class MarksStruct {
        var mark: Int
@@ -20,7 +20,7 @@ The object is constructed using Init()
        }
     }
     
-Deinitialization is accomplished using the key word Deinit
+Deinitialization is accomplished using the key word Deinit.
 
     deinit {
     // perform the deinitialization
