@@ -19,3 +19,27 @@ Users can use do-catch blocks to handle multiple exceptions.
     } catch pattern 2 where condition {
         statements
     }
+
+
+## C#
+
+C# handles exceptions similar to java. They can be done via throw or a try catch.
+
+    static double SafeDivision(double x, double y) {
+        if (y == 0)
+            throw new System.DivideByZeroException();
+        return x / y;
+    }
+    
+    try {
+        code...
+    } 
+    catch (DivideByZeroException e) {
+        code...
+    }
+    catch (Exception e) {
+        code..
+    }
+    
+    
+    
