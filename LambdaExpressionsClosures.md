@@ -16,3 +16,25 @@ The following example shows a function being passed to another function, telling
         return s1 > s2
     }
     var reversedNames = names.sorted(by: backward)
+
+
+## C#
+
+C# uses Lambda expressions which are denoted by the lambda operator => 
+
+    (x, y) => x == y
+ 
+ There are multiple forms of lambdas in C#
+ 1. Expression Lambdas = they have an expression on the right
+ 
+         (input-parameters) => expression
+ 2. Statement Lambdas = they have a statement on the right enclosed with brackets
+ 
+        (input-parameters) => { statement; }
+        
+ 3. Async Lambdas = These are either Expression Lambdas or Statement Lambdas but also use keywords such as async and await
+ 4. Lambdas that use Standard Query operators
+ 
+ 
+ 
+ [Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
