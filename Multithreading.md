@@ -20,22 +20,7 @@ such as async() and after() to delay a task.
 
 C# threading abilties are similar to java's. When a thread is created one could request information from it, request it to die, put it to sleep, and get state.
 
-    namespace MultithreadingApplication
-    {
-       class ThreadCreationProgram
-       {
-          public static void CallToChildThread()
-          {
-             Console.WriteLine("Child thread starts");
-          }
+Multitasking is different from the standard threading. In C# multitasking is achieved through the task class. Tasks use threads but schedule them in a much more efficient manor. Also threads can only be used once when using standard threading, but with tasks it can reuse threads and eliminate unnecessary waste.
 
-          static void Main(string[] args)
-          {
-             ThreadStart childref = new ThreadStart(CallToChildThread);
-             Console.WriteLine("In Main: Creating the Child thread");
-             Thread childThread = new Thread(childref);
-             childThread.Start();
-             Console.ReadKey();
-          }
-       }
-    }
+
+[Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
