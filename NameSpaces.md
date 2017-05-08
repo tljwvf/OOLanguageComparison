@@ -9,3 +9,20 @@ The most common way to create a name space in Swift is to use structures. These 
     static let Token = "sdfiug8186qf68qsdf18389qsh4niuy1"
     
     }
+
+
+## C#
+
+Namespaces are used to control/restrict the scope of the class and method names.
+
+    namespace SampleNamespace
+    {
+    class SampleClass
+    {
+        public void SampleMethod()
+        {
+            System.Console.WriteLine(
+              "SampleMethod inside SampleNamespace");
+        }
+    }
+    }
