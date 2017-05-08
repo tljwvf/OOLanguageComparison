@@ -14,8 +14,8 @@ Users can use do-catch blocks to handle multiple exceptions.
     do {
         try expression
         statements
-   } catch pattern 1 {
+    } catch pattern 1 {
         statements
-   } catch pattern 2 where condition {
+    } catch pattern 2 where condition {
         statements
-   }
+    }
