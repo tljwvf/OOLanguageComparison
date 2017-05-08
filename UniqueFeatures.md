@@ -8,3 +8,28 @@
 4. Swift has support for Optionals that can prevent nil pointer dereferences in most cases.
 5. Anything can be matched in Switch/Case clauses.
 6. It has no implicit type casts and lazy properties.
+
+## C#
+
+1.  C# is compatible with multiple langauge
+
+3.  Extension Methods 
+
+'''C#
+using System;
+using DefineIMyInterface;
+public static class Extension {
+public static void MethodA(this IMyInterface myInterface, int i) {
+Console.WriteLine...
+'''
+
+4.  Partial Classes and Methods
+'''C#
+public partial class Employee {
+public void DoWork() {
+}
+}
+public partial class Employee {...
+'''
+
+[Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
