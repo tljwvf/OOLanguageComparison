@@ -1,4 +1,4 @@
-# Unique Features of Swift/C#
+# Unique Features
 
 ## Swift
 
