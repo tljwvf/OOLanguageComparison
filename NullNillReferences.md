@@ -13,3 +13,15 @@ They are created using the ? operator and are used as follows:
     }else {
        println("myString has nil value")
     }
+
+
+## C#
+
+C# uses null keyword. Null simply translates to a null reference or a refecent to no objects. This is the default value for reference variables/objects.
+
+    Class test;
+    test = null;
+    
+
+
+[Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
