@@ -15,19 +15,19 @@
 
 3.  Extension Methods 
 
-    using System;
-    using DefineIMyInterface;
-    public static class Extension {
-    public static void MethodA(this IMyInterface myInterface, int i) {
-    Console.WriteLine...
+        using System;
+        using DefineIMyInterface;
+        public static class Extension {
+        public static void MethodA(this IMyInterface myInterface, int i) {
+        Console.WriteLine...
 
 
 4.  Partial Classes and Methods
 
-    public partial class Employee {
-    public void DoWork() {
-    }
-    }
-    public partial class Employee {...
+        public partial class Employee {
+        public void DoWork() {
+        }
+        }
+        public partial class Employee {...
 
 [Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
