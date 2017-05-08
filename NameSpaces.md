@@ -1,4 +1,4 @@
- # Name Spaces
+# Name Spaces
 ## Swift
 
 The most common way to create a name space in Swift is to use structures. These can then be used as a universally easy to understand constant that can store important information within the structure.
@@ -26,3 +26,7 @@ Namespaces are used to control/restrict the scope of the class and method names.
         }
     }
     }
+
+
+
+[Back to Home](https://github.com/tljwvf/OOLanguageComparison/blob/master/README.md)
