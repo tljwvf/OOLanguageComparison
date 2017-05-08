@@ -1,7 +1,6 @@
 # Classes
 
 ## Swift
-### Definition
 A class in swift is defined using the keyword class and is placed within a pair of braces.
 
     class SomeClass {
